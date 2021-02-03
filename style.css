@@ -1,0 +1,23 @@
+body{
+    background-color: honeydew;
+}
+.wrapper{
+    margin: auto;
+    background-color: gray;
+    display: grid;
+}
+.postTitle{
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+.postImage{
+    width: 400px;
+    height: 450px;
+    background-color: blue;
+}
+.postBody{
+    width: 400px;
+    height: 200px;
+    background-color: green;
+}
