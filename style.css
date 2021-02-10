@@ -1,16 +1,16 @@
 body{
-    background-color: honeydew;
+    background-color: #000000;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 .wrapper{
-    background-color: gray;
     display: grid;
     place-items: center;
 }
 .postTitle{
     width: 500px;
     min-height: 60px;
-    background-color: red;
+    background-color: white;
 }
 .postTitle *{
     display: inline-block;
@@ -18,21 +18,20 @@ body{
 }
 .postImage{
     width: 500px;
-    background-color: blue;
+    height: 450px;
 }
 .postBody{
     width: 500px;
-    background-color: green;
-}
-.reactions{
-    background-color: brown;
+    background-color: white;
 }
 .reactions div{
     display: inline-block;
     padding: 15px;
 }
+.reactions div i{
+    font-size: 30px;
+}
 .likes{
-    background-color: coral;
     padding: 15px;
 }
 .description{
@@ -40,9 +39,14 @@ body{
 }
 #options{
     float: right;
+    font-size: 35px;
+    margin-top: 10px;
 }
 #HTML5logo{
     float: left;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 0px;
 }
 #bookmark{
     float: right;
